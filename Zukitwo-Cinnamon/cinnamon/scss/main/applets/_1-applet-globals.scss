@@ -37,13 +37,13 @@
     .panel-left &, .panel-right & { padding: 7px 0; }
 
     &-line {
-        background-color: rgba(#000, .65);
+        background-color: rgba(#fff, .2);
         width: 1px;
     }
 
     &-line-vertical {
-        border: 0 rgba(#000, .65);
-        border-bottom-width: 1px;
+        background-color: rgba(#fff, .1);
+        height: 1px;
     }
 }
 

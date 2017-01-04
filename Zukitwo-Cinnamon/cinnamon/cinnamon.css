@@ -1274,13 +1274,13 @@ StScrollBar StButton#hhandle:active {
 }
 
 .applet-separator-line {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(255, 255, 255, 0.2);
   width: 1px;
 }
 
 .applet-separator-line-vertical {
-  border: 0 rgba(0, 0, 0, 0.65);
-  border-bottom-width: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 1px;
 }
 
 .applet-box {
