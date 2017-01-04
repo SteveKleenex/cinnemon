@@ -56,12 +56,8 @@
 
 @each $pos in top, bottom, left, right {
     .panel-#{$pos} .applet-box {
-        &:hover {
+        &:hover, &:checked {
             border-image: url("img/panel/applet__#{$pos}__hover.svg") 4;
-        }
-
-         &:checked {
-            border-image: url("img/panel/applet__#{$pos}__checked.svg") 4;
         }
     }
 }
