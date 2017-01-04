@@ -873,7 +873,7 @@ StScrollBar StButton#hhandle:active {
 
 /* Notifs look inside the notification applet & other popups. */
 .popup-menu-content #notification {
-  border-image: url("img/containers/light-bg-marked-green.svg") 7;
+  border-image: url("img/containers/light-bg-marked-blue.svg") 7;
   padding: .8em .8em .6em 1em;
 }
 
@@ -882,7 +882,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu-content #notification.notification-with-image {
-  border-image: url("img/containers/light-bg-marked-blue.svg") 7;
+  border-image: url("img/containers/light-bg-marked-green.svg") 7;
   padding-bottom: .8em;
 }
 
