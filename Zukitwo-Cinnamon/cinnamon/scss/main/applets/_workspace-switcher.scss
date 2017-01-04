@@ -11,7 +11,7 @@
 .workspace-button {
     @include size(20px, 10px);
     padding: 0 3px;
-    color: $text-secondary-invert;
+    color: $text-secondary;
     font-weight: bold;
 }
 
@@ -19,17 +19,17 @@
     .panel-#{$pos} .workspace-button {
         &:outlined {
             border-image: url("img/panel/window-list__#{$pos}__active.svg") 4;
-            color: $text-primary-invert;
+            color: $text-primary;
         }
 
         &:hover {
             border-image: url("img/panel/applet__#{$pos}__hover.svg") 4;
-            color: $text-primary-invert;
+            color: $text-primary;
         }
 
         &:outlined:hover {
             border-image: url("img/panel/window-list__#{$pos}__active__hover.svg") 4;
-            color: $text-primary-invert;
+            color: $text-primary;
         }
     }
 }
@@ -46,15 +46,15 @@
 
 @each $pos in top, bottom, left, right {
     .panel-#{$pos} .workspace {
-        background-color: rgba(#e9f0ff, .1);
-        border: 1px #000;
+        background-color: rgba(#000, .1);
+        border: 1px rgba(#fff, .2);
 
         &:active { border: 1px $accent-primary; }
 
         .windows {
-            -active-window-background: rgba(#50555D, 1);
+            -active-window-background: #50555D;
             -active-window-border: #000;
-            -inactive-window-background: rgba(#50555D, 1);
+            -inactive-window-background: #50555D;
             -inactive-window-border: #000;
         }
     }

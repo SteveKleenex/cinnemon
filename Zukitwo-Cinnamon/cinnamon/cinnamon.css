@@ -1719,68 +1719,68 @@ StScrollBar StButton#hhandle:active {
   width: 20px;
   height: 10px;
   padding: 0 3px;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
 
 .panel-top .workspace-button:outlined {
   border-image: url("img/panel/window-list__top__active.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-top .workspace-button:hover {
   border-image: url("img/panel/applet__top__hover.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-top .workspace-button:outlined:hover {
   border-image: url("img/panel/window-list__top__active__hover.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-bottom .workspace-button:outlined {
   border-image: url("img/panel/window-list__bottom__active.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-bottom .workspace-button:hover {
   border-image: url("img/panel/applet__bottom__hover.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-bottom .workspace-button:outlined:hover {
   border-image: url("img/panel/window-list__bottom__active__hover.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-left .workspace-button:outlined {
   border-image: url("img/panel/window-list__left__active.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-left .workspace-button:hover {
   border-image: url("img/panel/applet__left__hover.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-left .workspace-button:outlined:hover {
   border-image: url("img/panel/window-list__left__active__hover.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-right .workspace-button:outlined {
   border-image: url("img/panel/window-list__right__active.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-right .workspace-button:hover {
   border-image: url("img/panel/applet__right__hover.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .panel-right .workspace-button:outlined:hover {
   border-image: url("img/panel/window-list__right__active__hover.svg") 4;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.9);
 }
 
 /* ======================================
@@ -1795,8 +1795,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-top .workspace {
-  background-color: rgba(233, 240, 255, 0.1);
-  border: 1px #000;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px rgba(255, 255, 255, 0.2);
 }
 
 .panel-top .workspace:active {
@@ -1804,15 +1804,15 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-top .workspace .windows {
-  -active-window-background: #50555d;
+  -active-window-background: #50555D;
   -active-window-border: #000;
-  -inactive-window-background: #50555d;
+  -inactive-window-background: #50555D;
   -inactive-window-border: #000;
 }
 
 .panel-bottom .workspace {
-  background-color: rgba(233, 240, 255, 0.1);
-  border: 1px #000;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px rgba(255, 255, 255, 0.2);
 }
 
 .panel-bottom .workspace:active {
@@ -1820,15 +1820,15 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-bottom .workspace .windows {
-  -active-window-background: #50555d;
+  -active-window-background: #50555D;
   -active-window-border: #000;
-  -inactive-window-background: #50555d;
+  -inactive-window-background: #50555D;
   -inactive-window-border: #000;
 }
 
 .panel-left .workspace {
-  background-color: rgba(233, 240, 255, 0.1);
-  border: 1px #000;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px rgba(255, 255, 255, 0.2);
 }
 
 .panel-left .workspace:active {
@@ -1836,15 +1836,15 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-left .workspace .windows {
-  -active-window-background: #50555d;
+  -active-window-background: #50555D;
   -active-window-border: #000;
-  -inactive-window-background: #50555d;
+  -inactive-window-background: #50555D;
   -inactive-window-border: #000;
 }
 
 .panel-right .workspace {
-  background-color: rgba(233, 240, 255, 0.1);
-  border: 1px #000;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px rgba(255, 255, 255, 0.2);
 }
 
 .panel-right .workspace:active {
@@ -1852,9 +1852,9 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-right .workspace .windows {
-  -active-window-background: #50555d;
+  -active-window-background: #50555D;
   -active-window-border: #000;
-  -inactive-window-background: #50555d;
+  -inactive-window-background: #50555D;
   -inactive-window-border: #000;
 }
 
