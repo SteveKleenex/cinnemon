@@ -955,7 +955,7 @@ StScrollBar StButton#hhandle:active {
  * ====================================== */
 .modal-dialog {
   border-radius: 0;
-  padding: 0;
+  padding: 1px;
   color: rgba(0, 0, 0, 0.9);
   border-image: url("img/containers/popup.svg") 9;
 }
