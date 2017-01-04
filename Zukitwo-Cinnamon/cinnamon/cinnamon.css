@@ -1719,68 +1719,68 @@ StScrollBar StButton#hhandle:active {
   width: 20px;
   height: 10px;
   padding: 0 3px;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.65);
   font-weight: bold;
 }
 
 .panel-top .workspace-button:outlined {
   border-image: url("img/panel/window-list__top__active.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-top .workspace-button:hover {
   border-image: url("img/panel/applet__top__hover.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-top .workspace-button:outlined:hover {
   border-image: url("img/panel/window-list__top__active__hover.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-bottom .workspace-button:outlined {
   border-image: url("img/panel/window-list__bottom__active.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-bottom .workspace-button:hover {
   border-image: url("img/panel/applet__bottom__hover.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-bottom .workspace-button:outlined:hover {
   border-image: url("img/panel/window-list__bottom__active__hover.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-left .workspace-button:outlined {
   border-image: url("img/panel/window-list__left__active.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-left .workspace-button:hover {
   border-image: url("img/panel/applet__left__hover.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-left .workspace-button:outlined:hover {
   border-image: url("img/panel/window-list__left__active__hover.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-right .workspace-button:outlined {
   border-image: url("img/panel/window-list__right__active.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-right .workspace-button:hover {
   border-image: url("img/panel/applet__right__hover.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 .panel-right .workspace-button:outlined:hover {
   border-image: url("img/panel/window-list__right__active__hover.svg") 4;
-  color: rgba(0, 0, 0, 0.9);
+  color: #fff;
 }
 
 /* ======================================
