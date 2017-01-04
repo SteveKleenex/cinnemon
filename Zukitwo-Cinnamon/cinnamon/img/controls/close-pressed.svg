@@ -30,15 +30,15 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="11.710379"
-     inkscape:cx="-8.0887064"
-     inkscape:cy="20.162752"
+     inkscape:cx="-21.239434"
+     inkscape:cy="19.991963"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      inkscape:showpageshadow="false"
      inkscape:window-width="1600"
-     inkscape:window-height="848"
+     inkscape:window-height="852"
      inkscape:window-x="0"
      inkscape:window-y="26"
      width="400px"
@@ -121,7 +121,7 @@
         <dc:source />
         <cc:license
            rdf:resource="" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:subject>
           <rdf:Bag />
         </dc:subject>
@@ -171,7 +171,7 @@
        r="17.5"
        cy="279.5"
        cx="20.5"
-       style="display:inline;opacity:0.55;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
+       style="display:inline;opacity:0.24;fill:#000000;fill-opacity:1;stroke:none;enable-background:new"
        id="circle4210" />
     <circle
        id="path5896-9"
