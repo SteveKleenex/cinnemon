@@ -6,7 +6,7 @@
 /* Padding can only be set between 1px and 10px other wise it will default to 5px */
 .thumbnail-row {
     padding: 3px;
-    border-image: url("img/containers/tooltip.svg") 7;
+    border-image: url("img/containers/popup.svg") 7;
     background: none;
 }
 
@@ -17,11 +17,14 @@
 
 .thumbnail-row .thumbnail-box:outlined {
     border-image: url("img/containers/hover.svg") 7;
+
+    .thumbnail-label { color: $text-primary-invert; }
 }
 
 .thumbnail-row .thumbnail-box:selected {
     border-image: url("img/containers/hover.svg") 7;
 
+    .thumbnail-label { color: $text-primary-invert; }
 }
 
 /* the pseudo are not being overidden so I can't do a hover. that will need to be added to themes */
@@ -34,7 +37,7 @@
 }
 
 .thumbnail-label {
-    color: $text-primary-invert;
+    color: $text-primary;
     font-weight: bold;
 }
 
