@@ -1,4 +1,4 @@
-### Zukitwo-Cinnamon for cinnamon
+### Zukitwo for cinnamon
 
 ---
 
