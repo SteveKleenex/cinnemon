@@ -3116,7 +3116,7 @@ StBoxLayout.applet-box.desktop-capture StBin {
 }
 
 .popup-menu-item:active .menuitem-detail {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.65);
 }
 
 /* Use to add extra border around thumbnail or adjust the distance from the panel.  can be used for aero effect */

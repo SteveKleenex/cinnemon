@@ -119,6 +119,6 @@ StBoxLayout.applet-box.desktop-capture StBin {
     color: $text-secondary;
 
     .popup-menu-item:active & {
-        color: $text-secondary;
+        color: $text-secondary-invert;
     }
 }
