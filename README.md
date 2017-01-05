@@ -47,3 +47,8 @@ recompile sass and reload the theme when a change occurs.
 > **NOTE:**  
 
 > The script creates a link to the `Zukitwo-Cinnamon` dir in `~/.themes`.
+
+---
+
+<img src="http://pre11.deviantart.net/0eb2/th/pre/f/2017/005/4/d/zukitwo_cinnamon_by_zagortenay333-d6trf2v.png" id="preview">  
+<sup>**Preview info:** [Wallpaper](http://mustberesult.deviantart.com/art/Almora-212657321), [Icons](https://github.com/moka-project/moka-icon-theme)</sup>
