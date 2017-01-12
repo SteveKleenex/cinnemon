@@ -1930,19 +1930,20 @@ StScrollBar StButton#hhandle:active {
 
 .menu-category-button {
   padding: .6em;
-  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
 }
 
 .menu-category-button-greyed {
   padding: .6em;
   color: rgba(0, 0, 0, 0.3);
-  font-style: normal;
+  font-weight: bold;
 }
 
 .menu-category-button-selected {
   padding: .6em;
   border-image: url("img/containers/hover.svg") 7;
   color: #fff;
+  font-weight: bold;
 }
 
 .menu-category-button-label:ltr {
