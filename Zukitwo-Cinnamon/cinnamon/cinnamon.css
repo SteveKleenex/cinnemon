@@ -207,7 +207,7 @@ StScrollBar StButton#hhandle:active {
   font-size: 12px;
   border-image: url("img/buttons/button-primary__s.svg") 10;
   color: rgba(0, 0, 0, 0.9);
-  padding: 1em 2em;
+  padding: 1em 1.5em;
 }
 
 .button StIcon {
@@ -849,7 +849,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .notification-button {
-  padding: 1em 2em;
+  padding: 1em 1.5em;
 }
 
 .notification-icon-button {
@@ -982,7 +982,7 @@ StScrollBar StButton#hhandle:active {
   font-size: 12px;
   border-image: url("img/buttons/button-primary__s.svg") 10;
   color: rgba(0, 0, 0, 0.9);
-  padding: 1em 2em;
+  padding: 1em 1.5em;
 }
 
 .modal-dialog-button StIcon {
