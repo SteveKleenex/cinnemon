@@ -41,12 +41,12 @@
     }
 
     .slider {
-        padding-top: 1px;
-        height: 6px;
+        height: 4px;
         min-width: 15em;
-        -slider-background-color: #eaeaea;
+        -slider-background-color: #ddd;
         -slider-active-background-color: $accent-primary;
         -slider-handle-radius: 0;
-        border-image: url("img/misc/sound-slider-border.svg") 3 3 0 0;
+        border: 0 #ccc;
+        border-bottom: 1px;
     }
 }
