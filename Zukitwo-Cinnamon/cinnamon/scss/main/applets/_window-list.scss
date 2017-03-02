@@ -18,25 +18,27 @@
 }
 
 @each $pos in top, bottom, left, right {
-    .panel-#{$pos} .window-list-item-box {
-        color: $text-secondary-invert;
+    .panel-#{$pos} {
+        .window-list-item-box {
+            color: $text-secondary-invert;
 
-        &:hover  {
-            border-image: url("img/panel/applet__#{$pos}__hover.svg") 4;
-            color: $text-primary-invert;
+            &:hover  {
+                border-image: url("img/panel/applet__#{$pos}__hover.svg") 4;
+                color: $text-primary-invert;
+            }
+
+            &:active, &:checked, &:focus  {
+                border-image: url("img/panel/window-list__#{$pos}__active.svg") 4;
+                color: $text-primary-invert;
+            }
+
+            &:hover:active, &:hover:checked, &:hover:focus  {
+                border-image: url("img/panel/window-list__#{$pos}__active__hover.svg") 4;
+                color: $text-primary-invert;
+            }
         }
 
-        &:active, &:checked, &:focus  {
-            border-image: url("img/panel/window-list__#{$pos}__active.svg") 4;
-            color: $text-primary-invert;
-        }
-
-        &:hover:active, &:hover:checked, &:hover:focus  {
-            border-image: url("img/panel/window-list__#{$pos}__active__hover.svg") 4;
-            color: $text-primary-invert;
-        }
-
-        &-demands-attention {
+        .window-list-item-demands-attention {
             border-image: url("img/panel/window-list__#{$pos}__attention.svg") 4;
         }
     }

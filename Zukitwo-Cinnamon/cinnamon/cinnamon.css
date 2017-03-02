@@ -1471,7 +1471,7 @@ StScrollBar StButton#hhandle:active {
   color: #fff;
 }
 
-.panel-top .window-list-item-box-demands-attention {
+.panel-top .window-list-item-demands-attention {
   border-image: url("img/panel/window-list__top__attention.svg") 4;
 }
 
@@ -1494,7 +1494,7 @@ StScrollBar StButton#hhandle:active {
   color: #fff;
 }
 
-.panel-bottom .window-list-item-box-demands-attention {
+.panel-bottom .window-list-item-demands-attention {
   border-image: url("img/panel/window-list__bottom__attention.svg") 4;
 }
 
@@ -1517,7 +1517,7 @@ StScrollBar StButton#hhandle:active {
   color: #fff;
 }
 
-.panel-left .window-list-item-box-demands-attention {
+.panel-left .window-list-item-demands-attention {
   border-image: url("img/panel/window-list__left__attention.svg") 4;
 }
 
@@ -1540,7 +1540,7 @@ StScrollBar StButton#hhandle:active {
   color: #fff;
 }
 
-.panel-right .window-list-item-box-demands-attention {
+.panel-right .window-list-item-demands-attention {
   border-image: url("img/panel/window-list__right__attention.svg") 4;
 }
 
