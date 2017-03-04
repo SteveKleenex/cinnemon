@@ -50,5 +50,5 @@ recompile sass and reload the theme when a change occurs.
 
 ---
 
-<img src="http://orig01.deviantart.net/6276/f/2017/005/4/d/zukitwo_cinnamon_by_zagortenay333-d6trf2v.png" id="preview">  
+<img src="http://orig11.deviantart.net/22f6/f/2017/063/2/8/zukitwo_cinnamon_by_zagortenay333-d6trf2v.png" id="preview">  
 <sup>**Preview info:** [Wallpaper](http://mustberesult.deviantart.com/art/Almora-212657321), [Icons](https://github.com/moka-project/moka-icon-theme)</sup>
